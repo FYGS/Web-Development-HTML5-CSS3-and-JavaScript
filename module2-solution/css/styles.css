@@ -11,10 +11,11 @@ body {
 #heading {
   text-align: center;
 }
-.section-container {
+
+#chicken, #beef, #sushi {
   border: 1px solid black;
-  padding-left: 15px;
-  margin-bottom: 15px;
+  padding: 0 0 15px 15px;
+  margin: 0 20px 20px;
   background-color:#999999;
   line-height: 24px;
   font-size: 16px;
@@ -29,13 +30,13 @@ body {
 .section-content {
   clear: right;
 }
-#chicken {
+#chicken-title {
   background-color: #B37C74;
 }
-#beef {
+#beef-title {
   background-color: #C14543;
 }
-#sushi {
+#sushi-title {
   background-color: #E5D198;
 }
 
